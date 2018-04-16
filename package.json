@@ -1,0 +1,33 @@
+{
+  "name": "webrtc",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0",
+    "pug": "2.0.0-beta11",
+    "socket.io": "^2.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-google": "^0.9.1"
+  },
+  "description": "WebRTC testing",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliusn/WebRTC.git"
+  },
+  "author": "Julius Niiniranta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juliusn/WebRTC/issues"
+  },
+  "homepage": "https://github.com/juliusn/WebRTC#readme"
+}
